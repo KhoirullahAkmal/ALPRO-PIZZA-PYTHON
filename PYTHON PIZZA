@@ -47,3 +47,38 @@ elif pesan_menu == 8 :
     harga_pizza = 43637
 else : print("Menu tidak tersedia, silahkan pilih menu kembali.")
 print("                                                        ")
+
+#Pilihan crust
+print ("-------------")
+print ("PILIHAN CRUST")
+print ("-------------")
+print ("1. Pan + Rp0")
+print ("2. StuffedCrust Cheese + Rp11,818")
+print ("3. StuffedCrust Sausage + Rp9,091")
+print ("4. Cheesy Bites + Rp13,636")
+print ("5. Crown Crust + Rp11,818")
+print ("                         ")
+
+#Masukkan jenis crust
+pilih_crust= (int(input("Silahkan pilih crust pizza: ")))
+if pilih_crust == 1:
+    print ("Pan: + Rp0")
+    harga_crust = 0
+elif pilih_crust == 2:
+    print ("StuffedCrust Cheese: + Rp11,818")
+    harga_crust= 11818
+elif pilih_crust == 3:
+    print ("StuffedCrust Sausage: + Rp9,091")
+    harga_crust = 9091
+elif pilih_crust == 4:
+    print ("Cheesy Bites: + Rp13,636")
+    harga_crust = 13636
+elif pilih_crust == 5:
+    print ("Crown Crust: + Rp11,818")
+    harga_crust = 11818
+else :
+    print ("Tidak ada jenis crust")
+
+total_harga_sementara = harga_pizza + harga_crust
+print ("Total harga sementara: Rp",total_harga_sementara)
+print("                                                 ")
