@@ -82,3 +82,48 @@ else :
 total_harga_sementara = harga_pizza + harga_crust
 print ("Total harga sementara: Rp",total_harga_sementara)
 print("                                                 ")
+
+#Pilih Ukuran Pizza
+print("------------")
+print("UKURAN PIZZA")
+print("------------")
+print ("1. Personal + Rp0")
+print ("2. Regular + Rp57,273")
+print ("3. Large + Rp89,097")
+print ("                   ")
+ukuran = int(input("Silahkan pilih ukuran pizza: "))
+if ukuran == 1:
+    print ("Personal: Rp0")
+    harga_ukuran = 0
+elif ukuran == 2:
+    print ("Regular: Rp57,273")
+    harga_ukuran = 57273
+elif ukuran == 3:
+    print ("Large: Rp89,097")
+    harga_ukuran = 89097
+else : print ("Tidak ada pilihan ukuran")
+
+total_harga = harga_pizza + harga_crust + harga_ukuran
+print ("Total harga anda adalah:", total_harga)
+print ("                                     ")
+
+#Extra Cheese
+print ("------------")
+print ("Extra Cheese")
+print ("------------")
+print ("Harga Extra Cheese: Rp.13,636")
+tambah_keju = (input("Apakah ingin Extra Cheese? y/n: ")).lower()
+if tambah_keju == "y" :
+   print("                                                                ")
+   harga_keju = 13636
+   print ("Total harga yang harus anda bayar: Rp",total_harga + harga_keju )
+   print("                                                                ")
+else : 
+    tambah_keju == "n" 
+    print("                                                  ")
+    print ("Total harga yang harus anda bayar: Rp",total_harga)
+    print("                                                  ")
+    
+print ("*****************")
+print ("Terima kasih telah memesan pizza di Phyton Pizza!")
+print ("*****************")
