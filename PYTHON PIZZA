@@ -1,0 +1,49 @@
+print("***********")
+print("Selamat Datang di Phyton Pizza!")
+print("***********")
+print("                               ")
+
+
+#Daftar menu pizza
+print ("------------")
+print (" MENU PIZZA ")
+print ("------------")
+print ("1. Frankfurter BBQ          : Rp43,637")
+print ("2. Meat Monsta              : Rp43,637")
+print ("3. Super Supreme            : Rp43,637")
+print ("4. Super Supreme Chicken    : Rp43,637")
+print ("5. Meat Lovers              : Rp43,637")
+print ("6. Chicken Lovers           : Rp43,637")
+print ("7. Cheese Lovers            : Rp43,637")
+print ("8. American Favourite       : Rp43,637")
+print("                                       ")
+
+#Masukkan jenis pizza
+pesan_menu = (int(input("Silahkan pilih menu yang ingin dipesan: ")))
+print ("Menu yang dipilih:",pesan_menu)
+if pesan_menu == 1:
+    print ("Frankfurter BBQ: Rp43,637")
+    harga_pizza = 43637
+elif pesan_menu == 2 :
+    print ("Meat Monsta: Rp43,637")
+    harga_pizza = 43637
+elif pesan_menu == 3 :
+    print ("Super Supreme: Rp43,637")
+    harga_pizza = 43637
+elif pesan_menu == 4 :
+    print ("Super Supreme Chicken: Rp43,637")
+    harga_pizza = 43637
+elif pesan_menu == 5 :
+    print ("Meat Lovers: Rp43,637")
+    harga_pizza = 43637
+elif pesan_menu == 6 :
+    print ("Chicken Lovers: Rp43,637")
+    harga_pizza = 43637
+elif pesan_menu == 7 :
+    print ("Cheese Lovers: Rp43,637")
+    harga_pizza = 43637
+elif pesan_menu == 8 :
+    print ("American Favourite: Rp43,637")
+    harga_pizza = 43637
+else : print("Menu tidak tersedia, silahkan pilih menu kembali.")
+print("                                                        ")
