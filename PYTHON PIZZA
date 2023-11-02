@@ -1,6 +1,6 @@
-print("***********")
+print("*******************************")
 print("Selamat Datang di Phyton Pizza!")
-print("***********")
+print("*******************************")
 print("                               ")
 
 
@@ -124,6 +124,6 @@ else :
     print ("Total harga yang harus anda bayar: Rp",total_harga)
     print("                                                  ")
     
-print ("*****************")
+print ("*************************************************")
 print ("Terima kasih telah memesan pizza di Phyton Pizza!")
-print ("*****************")
+print ("*************************************************")
